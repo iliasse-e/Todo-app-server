@@ -72,7 +72,7 @@ export class DogModule {}
 
 - Use `forwarRef()` in the class scope
 
-- Use `forwardRef()` in the provider scope
+- Use `forwardRef()` in the provider scope (don't forget to use `@Inject(forwardRef(() => ServiceName))` in your module's class)
 
 - Use `moduleRef()` in the module scope
 
